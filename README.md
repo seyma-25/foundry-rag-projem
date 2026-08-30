@@ -50,3 +50,27 @@ python app.py
 İlk çalıştırmada sohbet modelini de (qwen2.5-0.5b) indiriyor, bu yüzden
 biraz sürebilir. Doğru çalışıp çalışmadığını kontrol etmek için birkaç
 soru sordum:
+Soru: RAG nedir?
+Soru: Foundry Local'ın GPU şartı var mı?
+Soru: Fransa'nın başkenti neresi?
+
+
+Son soruyu bilerek sordum çünkü belgelerimde bu bilgi yok — asistanın
+"bu bilgi elimde yok" demesini bekliyorum, bu da halüsinasyon yapmadığını
+kanıtlıyor.
+
+Çıkmak için `q` yazdım.
+
+## 4) Kendi belgelerimi ekledim
+
+`docs/` klasörüne kendi belgelerimi ekledikten sonra:
+
+```powershell
+python ingest.py
+python app.py
+```
+
+çalıştırdım. `ingest.py`'ı her yeni belge eklediğimde tekrar çalıştırıyorum
+çünkü bu komut çalıştığında `docs/` klasöründeki TÜM belgeler (eski + yeni)
+yeniden işlenir. Sonra aynı test sorularını tekrar sordum, ayrıca yeni
+eklediğim belgelere özel sorular da denedim.
