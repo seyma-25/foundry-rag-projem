@@ -1,0 +1,23 @@
+Foundry Local Nedir?
+
+Foundry Local, Microsoft'un geliştirdiği, büyük dil modellerini (LLM)
+tamamen kullanıcının kendi cihazında, internete ihtiyaç duymadan
+çalıştırmasını sağlayan bir çalışma zamanı (runtime) ve SDK'dır.
+Bulut hesabı veya GPU zorunluluğu yoktur; model indirme ve yönetme
+işini otomatik yapar, CPU/GPU/NPU hızlandırmasını kendisi seçer.
+
+RAG (Retrieval-Augmented Generation) Nedir?
+
+RAG, bir dil modelinin cevaplarını kullanıcının kendi belgeleriyle
+zenginleştirmesini sağlayan bir tasarım desenidir. Üç adımdan oluşur:
+Retrieve (İlgili bilgiyi belge kümesinden bul), Augment (Bulunan
+bilgiyi modelin girdisine ekle), Generate (Model bu bilgiyi kullanarak
+cevap üretir). Bu sayede model, uydurma (hallucination) yapmak yerine
+gerçek kaynaklara dayanan cevaplar verir.
+
+Neden SQLite?
+
+SQLite, sunucu gerektirmeyen, tek dosyalık bir veritabanı motorudur.
+Kurulumu yoktur, platformlar arası çalışır ve küçük-orta ölçekli
+projelerde belge parçalarını ve embedding vektörlerini saklamak için
+idealdir.

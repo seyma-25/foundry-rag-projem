@@ -1,0 +1,14 @@
+BİLGİSAYAR VE BİLGİSAYAR BİLİMLERİ ALT DALLARI
+
+1. Bilgisayar Nedir?
+Bilgisayar; kullanıcıdan aldığı verileri (girdi) önceden yüklenmiş programlar aracılığıyla işleyen, mantıksal ve aritmetiksel işlemler gerçekleştiren, elde ettiği sonuçları saklayabilen veya çıktı olarak sunabilen elektronik bir cihazdır. Donanım (fiziksel bileşenler) ve yazılım (komutlar/programlar) olmak üzere iki ana unsurdan oluşur.
+
+2. Bilgisayar Bilimleri ve Mühendisliğinin Temel Alt Dalları:
+- Yapay Zeka ve Makine Öğrenimi (AI & ML): Sistemlerin verilerden öğrenmesini, çıkarım yapmasını ve insan benzeri kararlar vermesini sağlayan algoritmalar bütünüdür (Örn: Doğal Dil İşleme, Bilgisayarlı Görü).
+- Yazılım Mühendisliği (Software Engineering): Kullanıcı ihtiyaçlarına uygun, ölçeklenebilir, güvenilir ve sürdürülebilir yazılımların tasarlanması, geliştirilmesi ve test edilmesi sürecidir.
+- Siber Güvenlik (Cybersecurity): Ağları, sistemleri, programları ve verileri dijital saldırılardan, yetkisiz erişimlerden ve hasarlardan koruma disiplinidir.
+- Veri Bilimi ve Büyük Veri (Data Science & Big Data): Büyük hacimli ve karmaşık veri kümelerinden istatistiksel ve analitik yöntemlerle anlamlı bilgiler çıkarma alanıdır.
+- Bilgisayar Ağları ve Dağıtık Sistemler (Networking): Cihazların birbiriyle iletişim kurmasını, veri paylaşmasını sağlayan protokol ve altyapıların incelenmesidir.
+- Veritabanı Yönetim Sistemleri (DBMS): Verilerin düzenli, güvenli ve hızlı bir şekilde depolanmasını, sorgulanmasını ve güncellenmesini sağlayan sistemlerdir.
+- Gömülü Sistemler ve IoT (Embedded Systems): Belirli bir görevi yerine getirmek üzere mikrodenetleyiciler ile donatılmış donanım ve yazılım bileşimleridir.
+- Bilgisayar Mimarisi ve Donanım: İşlemciler, bellekler ve diğer donanım birimlerinin elektriksel ve mantıksal tasarımıyla ilgilenir.

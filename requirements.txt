@@ -1,0 +1,9 @@
+# Windows'ta donanım hızlandırmalı (NPU/GPU) sürüm önerilir:
+foundry-local-sdk
+openai
+numpy
+
+# NOT: foundry-local-sdk-winml ile foundry-local-sdk AYNI ANDA kurulmamalı
+# (ikisi de onnxruntime-core paketini farklı sürümle ister, çakışır).
+# Eğer GPU/NPU hızlandırma istemiyorsan ya da winml kurulumunda sorun
+# yaşarsan, bu satırı "foundry-local-sdk" ile değiştir.
